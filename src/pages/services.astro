@@ -10,67 +10,72 @@ import consultingImg from "@/assets/images/services/consulting.webp";
 const services = [
   {
     title: "Web Development",
-    description: "Static and dynamic sites built for the modern era.",
+    description:
+      "High-performance, scalable web solutions built for business growth.",
     icon: "lucide:globe",
   },
   {
-    title: "SEO Optimization",
-    description: "We ensure your content is found by those looking for it.",
-    icon: "lucide:search",
+    title: "Mobile Apps",
+    description:
+      "Custom native and cross-platform applications for iOS and Android.",
+    icon: "lucide:smartphone",
   },
   {
-    title: "IT Consulting",
-    description: "Technical advice to scale your projects to the next level.",
-    icon: "lucide:rocket",
+    title: "Cloud Solutions",
+    description:
+      "Robust infrastructure and cloud-native application development.",
+    icon: "lucide:cloud",
   },
 ];
 const metadata = {
-  title: "Services",
+  title: "Our Services — Aerix Labs",
   description:
-    "Discover our web development, SEO optimization, and technology consulting services.",
+    "Explore our professional services including web development, mobile app creation, and strategic technology consulting.",
 };
 ---
 
 <BaseLayout {metadata}>
   <Content
     tagline="Services"
-    title="Our Services"
+    title="Tailored Solutions for Your Digital Success"
     description={[
-      "Comprehensive solutions designed to maximize the potential of your digital presence.",
+      "Aerix Labs provides comprehensive software development services designed to maximize your digital potential and drive business impact.",
     ]}
   />
   <ServiceList services={services} classes={{ container: "pt-0 md:pt-0" }} />
+
   <Content
-    tagline="Web Development"
-    title="Modern Web Development"
+    tagline="Core Expertise"
+    title="Custom Web & Mobile Development"
     description={[
-      "We specialize in building fast, secure, and scalable websites using the latest technologies. We transform your vision into an impactful digital experience.",
+      "We build more than just websites. We create powerful digital experiences that engage users and deliver measurable results.",
     ]}
     classes={{ container: "pb-0 md:pb-0" }}
   />
+
   <Content2
     items={[
       {
-        title: "Responsive Design",
+        title: "Enterprise Web Applications",
         description:
-          "Your site will look perfect on any device, from mobiles to desktop screens.",
+          "Complex, data-driven platforms designed to streamline your business operations.",
       },
       {
-        title: "Optimized Performance",
+        title: "E-commerce Solutions",
         description:
-          "Fast loading to improve user experience and SEO positioning.",
+          "High-converting online stores built with a focus on speed, security, and user experience.",
       },
     ]}
     image={webDevImg}
-    imageAlt="Modern Web Development"
+    imageAlt="Professional Web Development"
     classes={{ container: "pt-0 md:pt-0" }}
   >
     <Fragment>
       <h3 class="text-2xl font-bold tracking-tight sm:text-3xl mb-2">
-        Modern Web Development
+        Full-Stack Web Development
       </h3>
-      We specialize in building fast, secure, and scalable websites using the latest
-      technologies. We transform your vision into an impactful digital experience.
+      Our team leverages modern frameworks like React and Astro to build lightning-fast
+      web experiences that scale with your business.
     </Fragment>
   </Content2>
 
@@ -78,25 +83,25 @@ const metadata = {
     isReversed={true}
     items={[
       {
-        title: "SEO Audit",
+        title: "Native & Hybrid Apps",
         description:
-          "We deeply analyze your website to identify technical and content improvement opportunities.",
+          "Seamless performance across all platforms using the latest mobile development technologies.",
       },
       {
-        title: "Content Strategy",
+        title: "UI/UX Design",
         description:
-          "We create relevant content plans that attract and retain your target audience.",
+          "Intuitive and engaging mobile interfaces designed for maximum user retention.",
       },
     ]}
     image={seoImg}
-    imageAlt="SEO Strategies"
+    imageAlt="Mobile App Development"
   >
     <Fragment>
       <h3 class="text-2xl font-bold tracking-tight sm:text-3xl mb-2">
-        SEO Optimization
+        Mobile Application Excellence
       </h3>
-      We help your business get found by the right people. Our organic positioning
-      strategies are designed to improve your organic visibility.
+      We transform your ideas into powerful mobile applications, ensuring your brand
+      is always at your customers' fingertips.
     </Fragment>
   </Content2>
 
@@ -105,24 +110,23 @@ const metadata = {
       {
         title: "Digital Transformation",
         description:
-          "We guide you in adopting new technologies to optimize your business processes.",
+          "Guiding you through the adoption of new technologies to modernize your business.",
       },
       {
-        title: "Software Architecture",
+        title: "Architectural Planning",
         description:
-          "We design robust and scalable systems prepared for future growth.",
+          "Designing robust, secure, and scalable systems prepared for future expansion.",
       },
     ]}
     image={consultingImg}
-    imageAlt="Technology Consulting"
+    imageAlt="Strategic Technology Consulting"
   >
     <Fragment>
       <h3 class="text-2xl font-bold tracking-tight sm:text-3xl mb-2">
-        Technology Consulting
+        Strategic IT Consulting
       </h3>
-      We accompany you in critical decision-making. We evaluate your current infrastructure
-      and design personalized roadmaps to take your company to the next technological
-      level.
+      We partner with you to make critical technology decisions, ensuring your infrastructure
+      is built to support your long-term goals.
     </Fragment>
   </Content2>
 </BaseLayout>
