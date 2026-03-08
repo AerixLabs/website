@@ -3,7 +3,7 @@ import ogImage from "@/assets/og-image.png";
 export const siteConfig = {
   name: "Aerix Labs",
   description:
-    "Aerix Labs - Leading the future of web development and digital solutions.",
+    "Software development platform specialized in high-performance website and app development.",
   url: "https://aerixlabs.com",
   lang: "en",
   locale: "en_US",
@@ -12,7 +12,6 @@ export const siteConfig = {
   ogImage: ogImage,
   socialLinks: {
     twitter: "https://twitter.com/aerixlabs",
-    github: "https://github.com/AerixLabs",
     discord: "https://discord.gg/aerixlabs",
   },
   navLinks: [
@@ -21,6 +20,5 @@ export const siteConfig = {
     { text: "Services", href: "/services" },
     { text: "Blog", href: "/blog" },
     { text: "Contact", href: "/contact" },
-    { text: "Widgets", href: "/widgets" },
   ],
 };

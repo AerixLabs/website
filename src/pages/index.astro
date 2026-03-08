@@ -7,57 +7,58 @@ import devImg from "@/assets/images/dev_balanced.png";
 import openSourceImg from "@/assets/images/open-source.png";
 import Content2 from "@/components/widgets/Content2.astro";
 const metadata = {
-  title: `${siteConfig.name} — The next step for your project`,
+  title: `${siteConfig.name} — Software Development Platform`,
   description:
-    "A modern and professional template for your web projects with Astro and Tailwind CSS. Boost your development with a solid foundation.",
+    "Leading software development platform specialized in high-performance website and app development. We build the future of digital solutions.",
   ignoreTitleTemplate: true,
 };
 ---
 
 <BaseLayout {metadata}>
   <Hero
-    title={`Starter Template for <br class="hidden md:block" /> <span class="bg-linear-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">Web Developers</span>`}
-    tagline="Astro v5 + Tailwind v4"
-    description={`${siteConfig.description}`}
+    title={`Innovating the Digital <br class="hidden md:block" /> <span class="bg-linear-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">Landscape</span>`}
+    tagline="Software Development Platform"
+    description="Specialized in building high-performance websites and mobile applications tailored to your business needs."
     actions={[
-      {
-        text: "Get Started",
-        href: "https://github.com/devgelo-labs/astro-starter-pro",
-        variant: "primary",
-        icon: "lucide:github",
-      },
       {
         text: "Our Services",
         href: "/services",
-        variant: "secondary",
+        variant: "primary",
         icon: "lucide:arrow-right",
-        ariaLabel: "Learn more about our services",
+      },
+      {
+        text: "Contact Us",
+        href: "/contact",
+        variant: "secondary",
+        icon: "lucide:mail",
+        ariaLabel: "Get in touch with our team",
       },
     ]}
   />
   <Features
-    tagline="Features"
-    title="What's Included"
-    subtitle="A selection of tools and configurations to streamline your workflow."
+    tagline="Core Expertise"
+    title="What We Do"
+    subtitle="Comprehensive digital solutions designed for scalability and impact."
     features={[
       {
-        title: "Optimized SEO",
+        title: "Web Development",
         description:
-          "Base configuration for Meta tags, Open Graph, and Sitemap generation.",
-        icon: "lucide:scan-search",
+          "Custom, high-performance websites built with the latest technologies for maximum speed and SEO.",
+        icon: "lucide:globe",
         iconClass: "bg-blue-500/10 text-blue-400",
       },
       {
-        title: "High Performance",
-        description: "Lightweight structure for fast load times.",
-        icon: "lucide:zap",
+        title: "App Development",
+        description:
+          "Native and cross-platform mobile applications that provide seamless user experiences.",
+        icon: "lucide:smartphone",
         iconClass: "bg-purple-500/10 text-purple-400",
       },
       {
-        title: "Tailwind v4",
+        title: "Digital Strategy",
         description:
-          "Integrated configuration with the latest version of Tailwind CSS.",
-        icon: "lucide:palette",
+          "Strategic consulting to help your business navigate the digital transformation effectively.",
+        icon: "lucide:lightbulb",
         iconClass: "bg-pink-500/10 text-pink-400",
       },
     ]}
@@ -65,70 +66,72 @@ const metadata = {
   <Content2
     items={[
       {
-        title: "Responsive Design",
+        title: "Modern Architecture",
         description:
-          "Base configuration for Meta tags, Open Graph, and Sitemap generation.",
-        icon: "lucide:scan-search",
+          "We use cutting-edge frameworks and patterns to ensure your software is future-proof.",
+        icon: "lucide:layers",
         iconClass: "bg-blue-500/10 text-blue-400",
       },
       {
-        title: "High Performance",
-        description: "Lightweight structure for fast load times.",
-        icon: "lucide:zap",
+        title: "User-Centric Design",
+        description:
+          "Every pixel is placed with purpose, ensuring intuitive and engaging interfaces.",
+        icon: "lucide:mouse-pointer-2",
         iconClass: "bg-purple-500/10 text-purple-400",
       },
       {
-        title: "Tailwind v4",
+        title: "Scalable Infrastructure",
         description:
-          "Integrated configuration with the latest version of Tailwind CSS.",
-        icon: "lucide:palette",
+          "Our solutions are built to grow with your business, handling increased load effortlessly.",
+        icon: "lucide:trending-up",
         iconClass: "bg-pink-500/10 text-pink-400",
       },
     ]}
     image={devImg}
-    imageAlt="Development"
+    imageAlt="Software Development Excellence"
   >
     <Fragment>
       <h3 class="text-2xl font-bold tracking-tight sm:text-3xl mb-2">
-        Development
+        Software Excellence
       </h3>
-      We provide a solid foundation to start your projects with best practices.
+      We deliver robust and scalable software solutions that drive business growth
+      and user satisfaction.
     </Fragment>
   </Content2>
   <Content2
     items={[
       {
-        title: "Open Source",
+        title: "Full-Stack Expertise",
         description:
-          "Developed under the MIT license, free for personal and commercial use.",
-        icon: "lucide:github",
+          "Comprehensive development from front-end interfaces to complex back-end systems.",
+        icon: "lucide:code-2",
         iconClass: "bg-indigo-500/10 text-indigo-400",
       },
       {
-        title: "Community Driven",
+        title: "Security First",
         description:
-          "Built with the feedback and contributions of the developer community.",
-        icon: "lucide:users",
+          "Implementing industry-standard security practices to protect your data and users.",
+        icon: "lucide:shield-check",
         iconClass: "bg-orange-500/10 text-orange-400",
       },
       {
-        title: "Regular Updates",
+        title: "Continuous Delivery",
         description:
-          "Continuously improved with the latest technologies and best practices.",
-        icon: "lucide:refresh-cw",
+          "Agile processes that ensure frequent updates and transparent communication throughout the project.",
+        icon: "lucide:git-pull-request",
         iconClass: "bg-teal-500/10 text-teal-400",
       },
     ]}
     image={openSourceImg}
-    imageAlt="Community and Open Source"
+    imageAlt="Quality and Partnership"
     isReversed={true}
   >
     <Fragment>
       <h3 class="text-2xl font-bold tracking-tight sm:text-3xl mb-2">
-        Open Source & Community
+        Your Partner in Innovation
       </h3>
-      Join the revolution of modern web development. This project is open for everyone
-      to use, learn from, and contribute to.
+      At Aerix Labs, we don't just build software; we build long-term partnerships
+      aimed at achieving your digital goals.
     </Fragment>
   </Content2>
 </BaseLayout>
