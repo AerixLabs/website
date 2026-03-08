@@ -8,11 +8,9 @@ export const siteConfig = {
   lang: "en",
   locale: "en_US",
   author: "Aerix Labs",
-  twitter: "@AerixLabs",
   ogImage: ogImage,
   socialLinks: {
-    twitter: "https://twitter.com/aerixlabs",
-    discord: "https://discord.gg/aerixlabs",
+    // Social links removed as requested
   },
   navLinks: [
     { text: "Home", href: "/" },
