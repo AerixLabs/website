@@ -1,10 +1,10 @@
 # GEMINI.md - Project Context & Instructions
 
-This file provides architectural context and development guidelines for the **Astro Starter Pro** project to ensure consistent and high-quality contributions.
+This file provides architectural context and development guidelines for the **Aerix Labs Website** project to ensure consistent and high-quality contributions.
 
 ## Project Overview
 
-**Astro Starter Pro** is a modern, high-performance web template built with:
+**Aerix Labs Website** is a modern, high-performance web project built with:
 
 - **Framework:** [Astro 5](https://astro.build/) (using the `glob` loader for content).
 - **Styling:** [Tailwind CSS 4](https://tailwindcss.com/) (using `@tailwindcss/vite`).

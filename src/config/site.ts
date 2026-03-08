@@ -1,19 +1,19 @@
 import ogImage from "@/assets/og-image.png";
 
 export const siteConfig = {
-  name: "Astro Starter Pro",
+  name: "Aerix Labs",
   description:
-    "Starter template optimized for SEO and performance. A solid foundation to start your projects with best practices.",
-  url: "https://astrostarterpro.com",
+    "Aerix Labs - Leading the future of web development and digital solutions.",
+  url: "https://aerixlabs.com",
   lang: "en",
   locale: "en_US",
-  author: "Devgelo",
-  twitter: "@Devgelo",
+  author: "Aerix Labs",
+  twitter: "@AerixLabs",
   ogImage: ogImage,
   socialLinks: {
-    twitter: "https://twitter.com",
-    github: "https://github.com/devgelo-labs/astro-starter-pro",
-    discord: "https://discord.com",
+    twitter: "https://twitter.com/aerixlabs",
+    github: "https://github.com/AerixLabs",
+    discord: "https://discord.gg/aerixlabs",
   },
   navLinks: [
     { text: "Home", href: "/" },
